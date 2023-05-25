@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "temp_1",
+  "tests"
+]

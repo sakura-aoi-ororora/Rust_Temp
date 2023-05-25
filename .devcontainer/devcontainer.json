@@ -1,0 +1,18 @@
+{
+    "name": "Rust Container",
+    "service" : "rust_env",
+    "workspaceFolder": "/workspace",
+    "dockerComposeFile": "../docker-compose.yml",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "editorconfig.editorconfig",
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "bungcip.better-toml",
+                "serayuzgur.crates"
+            ]
+        }
+    }
+}

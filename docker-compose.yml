@@ -1,0 +1,13 @@
+services:
+  rust_env:
+    build: 
+      context: .
+      dockerfile: docker/rust/Dockerfile
+    tty: true
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - rust-target:/workspace/target
+
+volumes:
+  rust-target:
