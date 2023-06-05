@@ -2,7 +2,7 @@ services:
   rust_env:
     build: 
       context: .
-      dockerfile: docker/rust/Dockerfile
+      dockerfile: docker/Dockerfile
     tty: true
     working_dir: /workspace
     volumes:
